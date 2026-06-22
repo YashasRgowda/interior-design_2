@@ -500,7 +500,7 @@ const $$ = (s,c=document)=>[...c.querySelectorAll(s)];
     setTimeout(()=>intro.classList.add('gone'),1100);
   }
   if(reduce || !intro){ if(intro) intro.classList.add('gone'); document.body.classList.add('is-ready'); return; }
-  let p=0; const t0=performance.now(), dur=5000;
+  let p=0; const t0=performance.now(), dur=8000;
   (function tick(now){
     p=Math.min(1,(now-t0)/dur);
     const v=Math.round(p*100);
