@@ -508,7 +508,7 @@ const $$ = (s,c=document)=>[...c.querySelectorAll(s)];
     if(bar) bar.style.transform='scaleX('+p+')';
     if(p<1) requestAnimationFrame(tick); else setTimeout(finish,120);
   })(t0);
-  setTimeout(()=>{ if(!document.body.classList.contains('is-ready')) finish(); },2400);
+  setTimeout(()=>{ if(!document.body.classList.contains('is-ready')) finish(); },8500);
 })();
 
 const nav=$('#nav'), progress=$('#progress');
